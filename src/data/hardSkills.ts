@@ -6,8 +6,8 @@ interface HardSkill {
 
 const hardSkills: HardSkill[] = [
   {
-    name: "AstroJs",
-    description: "My favorite static site generator for building modern websites",
+    name: "Figma",
+    description: "最喜欢的UI矢量设计工具，完成产品界面与交互设计",
     icon: "astro_dark"
   },
   {

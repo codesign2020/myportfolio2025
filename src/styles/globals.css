@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 @layer base {
-    :root {
-        --radius: 0.5rem
-    }
+  :root {
+    font-family: 'Lexend', sans-serif;
+  }
+}
+
+body {
+  font-family: theme('fontFamily.sans');
 }
 
 main {
@@ -14,9 +18,9 @@ main {
 /* Base prose styling */
 /* Customize .prose directly */
 .prose {
-    color: theme('colors.n700');
-    --tw-prose-headings: theme('colors.n700');
-    --tw-prose-p: theme('colors.n700');
+    color: theme('colors.dark-theme');
+    --tw-prose-headings: theme('colors.dark-theme');
+    --tw-prose-p: theme('colors.dark-theme');
     --tw-prose-a: theme('colors.primary-light');
     --tw-prose-a-hover: theme('colors.primary-hover-light');
     --tw-prose-blockquote: theme('colors.n500');
@@ -33,7 +37,7 @@ main {
 /* Dark mode customization */
 @media (prefers-color-scheme: dark) {
     .prose {
-        color: theme('colors.n200');
+        color: theme('colors.light-theme');
         --tw-prose-headings: theme('colors.light-theme');
         --tw-prose-p: theme('colors.light-theme');
         --tw-prose-a: theme('colors.primary-dark');

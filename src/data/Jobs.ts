@@ -44,15 +44,15 @@ interface WorkExperience {
  */
 const workExperience:WorkExperience[] = [
     {
-        title: "Frontend Developer",
-        startDate: "2020-03-10",
-        company: "Google Inc",
-        location: "United States",
-        description: "Developed and maintained web applications using React, NextJs, and Tailwind CSS.",
+        title: "高级UI设计师",
+        startDate: "2024-09-10",
+        company: "浩睿智源人工智能有限公司",
+        location: "山东济南",
+        description: "负责公司产品科研处、大模型、大语言模型等产品的UI设计工作。",
         goals: [
-            "Developed and maintained web applications using React, NodeJs, and MongoDB.",
-            "Worked with the team to develop and maintain web applications using React, NodeJs, and MongoDB.",
-            "Created and maintained web applications using React, NodeJs, and MongoDB.",
+            "负责科研处产品的UI设计工作。",
+            "制定良好的UI设计规范，并持续优化产品的用户体验",
+            "团队合作，与前端、后端工程师共同合作，确保产品的高质量交付。",
         ],
         currentJob: true,
     },

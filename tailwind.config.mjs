@@ -14,6 +14,9 @@ export default {
 			padding: '2rem',
 		},
     	extend: {
+    		fontFamily: {
+    			sans: ['Lexend', 'sans-serif'],
+    		},
     		borderRadius: {
     			lg: 'var(--radius)',
     			md: 'calc(var(--radius) - 2px)',
@@ -21,12 +24,12 @@ export default {
     		},
 			colors: {
 				// Light mode colors
-				'light-theme': '#E9EBEC',
+				'light-theme': '#f5f6fa',
 				'primary-light': '#FBD144',
 				'primary-hover-light': '#FFE071',
 
 				// Dark mode colors
-				'dark-theme': '#0C151D',
+				'dark-theme': '#1a1b26',
 				'primary-dark': '#FFE071',
 				'primary-hover-dark': '#FBD144',
 

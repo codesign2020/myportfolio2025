@@ -5,21 +5,21 @@ export const SITE = {
     tags: ["portfolio", "Resume cv", "Astro"],
     ogImage: "/og-image.webp",
     logo: "logo",
-    logoText: "Portfolio",
+    logoText: "Sherlock Lau",
     lang: "en",
     favicon: "/favicon.png",
     repository: "https://github.com/vito8916/simple-portfolio.git",
-    author: "Victor Alvarado",
+    author: "Sherlock Lau",
     profile: "https://victoralvarado.dev/",
 }
 
 export const ME = {
-    name: "VicBox Dot Dev",
-    profession: "Software Engineer | Full Stack Developer",
+    name: "Sherlock Lau",
+    profession: "UI 设计师 | 用户体验设计师",
     profileImage: "pp2.png",
     profileFacts: [
         {
-            value: 10,
+            value: 11,
             description: "Years of Experience"
         },
         {
@@ -36,7 +36,7 @@ export const ME = {
         linkedin: "https://www.linkedin.com/in/victor-alvaradohn",
         resumeDoc: "resume.pdf",
     },
-    aboutMe: "I am a software engineer with a passion for web development. I have experience in building web " + "applications using modern technologies. I am a self-taught developer who enjoys learning new things and " + "sharing knowledge with others.",
+    aboutMe: "我是一个 UI 设计师，拥有 11 年的工作经验，擅长于创建用户友好的界面。我喜欢使用 Figma 和 Adobe XD 来设计界面，并且熟悉 HTML、CSS 和 JavaScript。我也喜欢使用 Git 和 GitHub 来管理代码。",
 }
 
 export const SOCIALS = [
